@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-Model 2 - CSS
+# goit-markup-hw-03
+Model 3 - Блочная модель. Flexbox.
