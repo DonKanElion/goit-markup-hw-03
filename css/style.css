@@ -1,0 +1,214 @@
+:root {
+  --title-text-color: rgba(33, 33, 33, 1);
+  --secondy-text-color: rgba(117, 117, 117, 1);
+  --accent-color: rgba(33, 150, 243, 1);
+  --primery-white-color: #ffffff;
+}
+
+a,
+ul {
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--title-text-color);
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/*========= Header =========*/
+
+.logo {
+  color: var(--accent-color);
+  font-family: "relewayl", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo:last-child {
+  color: var(--title-text-color);
+}
+
+.list {
+  /* text-decoration: none; */
+}
+
+.link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.secondy-text {
+  color: var(--secondy-text-color);
+}
+
+/*========= END Header =========*/
+/*========= Hero ========= */
+
+.hero h1 {
+  background-color: rgba(47, 48, 58, 1);
+  color: var(--primery-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button {
+  /* display: flex; */
+  /* align-items: center; */
+
+  background-color: var(--accent-color);
+  color: #ffffff;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero .button:hover {
+  background-color: rgb(19, 129, 220);
+}
+
+/*========= END Hero ========= */
+/*========= Action =========*/
+
+.title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.text {
+  color: var(--secondy-text-color);
+  line-height: 1.71;
+}
+/*========= END Action =========*/
+/* ========= Working =========*/
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.16;
+  /* text-align: center; */
+}
+
+/* ========= END Working =========*/
+/*=========  Team ========= */
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* text-align: center; */
+}
+
+.team-skills {
+  color: var(--secondy-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+  /* text-align: center; */
+}
+
+/*========= END Team ========= */
+/*========= Footer =========*/
+
+footer {
+  background-color: #2f303a;
+}
+
+footer a .logo:last-child {
+  color: var(--primery-white-color);
+}
+
+.address > .link {
+  color: var(--primery-white-color);
+  font-style: normal;
+}
+
+.footer-contact .link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-contact .link:hover {
+  /* color: var(--secondy-text-color); */
+}
+
+/*========= END Footer =========*/
+/* ======== PORTFOLIO =========*/
+
+.filter {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  border: 0;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.filter:focus {
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
+
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filter:hover {
+  border: 2px solid var(--title-text-color);
+  border-radius: 4px;
+}
+
+/* ========= PROJECTS =========*/
+
+.project-name {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-text {
+  color: var(--secondy-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
+/* ======== END PORTFOLIO =========*/
