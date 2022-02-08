@@ -195,6 +195,9 @@ footer a .logo:last-child {
 }
 
 .filter:hover {
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
+
   border: 2px solid var(--title-text-color);
   border-radius: 4px;
 }
