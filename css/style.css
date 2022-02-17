@@ -80,6 +80,10 @@ body {
   align-items: center;
 }
 
+.logo-link {
+  margin-right: 93px;
+}
+
 .logo {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
@@ -90,7 +94,6 @@ body {
 
 .logo:last-child {
   color: var(--title-text-color);
-  margin-right: 93px;
 }
 
 .menu {
@@ -99,8 +102,8 @@ body {
 }
 
 .link-nav {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   color: var(--title-text-color);
   font-weight: 500;
